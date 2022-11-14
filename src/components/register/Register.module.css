@@ -1,0 +1,47 @@
+.pozdrav {
+  text-align: center;
+}
+
+.pozdrav h2 {
+  color: #741188;
+  font-weight: 300;
+}
+
+.input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.input label {
+  font-weight: bold;
+  margin: 5px;
+}
+
+.input input {
+  width: 4rem;
+  border: 1px solid #ccc;
+  font: inherit;
+  margin: 5px;
+}
+
+.button {
+  font: inherit;
+  border: 1px solid #4f005f;
+  background: #4f005f;
+  color: white;
+  padding: 0.25rem 1rem;
+  cursor: pointer;
+}
+
+.button:hover,
+.button:active {
+  background: #741188;
+  border-color: #741188;
+}
+
+.button:focus {
+  outline: none;
+}
